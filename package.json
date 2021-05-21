@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "cypress": "./node_modules/.bin/cypress open"
+    "cypress": "^7.3.0",
+    "faker": "^5.5.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress": "./node_modules/.bin/cypress open"
   },
   "author": "",
   "license": "ISC"

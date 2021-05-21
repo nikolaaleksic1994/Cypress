@@ -1,0 +1,25 @@
+{
+    "navigation" : {
+        "loginButton" : "a[href='/login']",
+        "logoutButton" : ".ml-auto > :nth-child(3) > .nav-link"
+    },
+
+    "loginPage":{
+        "email":"input[id='email']",
+        "password":"input[id='password']",
+        "submitBtn":"button[type='submit']"
+    },
+
+    "registerPage":{
+        "register":"https://gallery-app.vivifyideas.com/login",
+        "registerButton":":nth-child(2) > .nav-link",
+        "firstName":"input[id='first-name']",
+        "lastName":"input[id='last-name']",
+        "registerEmail":"input[id='email']",
+        "registerPassword":"input[id='password']",
+        "confirmPassword":"input[id='password-confirmation']",
+        "terms":"input[class='form-check-input']",
+        "submitButton":"button[type='submit']"
+
+    }
+}
