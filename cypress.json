@@ -1,3 +1,7 @@
 {
-    "baseUrl" : "https://gallery-app.vivifyideas.com/"
+    "baseUrl" : "https://gallery-app.vivifyideas.com/",
+    "env" : {
+         "userName":"zoki19994@gmail.com",
+         "password":"nidza1994"
+    }
 }

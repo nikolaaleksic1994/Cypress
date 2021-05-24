@@ -12,6 +12,10 @@ describe('login spec', () =>{
     beforeEach(() => {
         cy.visit ('')
         cy.get("a[href='/login']").click()
+        cy.url().should('include','/login')
+        cy.get(locators.loginPage.title).shoud('have.text', 'Please login')
+    
+    
     })
         it('positive',() =>{
         cy.get(locators.navigation.loginButton).click()
